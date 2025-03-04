@@ -1,14 +1,16 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+
 import { BrowserRouter } from "react-router-dom";
-import App from "./App";
 
-const basename = "/Personal-Website"; // Numele repo-ului GitHub
+const basename = "/Personal-Website"; 
 
-export default function Root() {
-  return (
-    <StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <BrowserRouter basename={basename}>
       <App />
-      </BrowserRouter>
-    </StrictMode>
-  );
-}
+    </BrowserRouter>
+  </StrictMode>
+);
