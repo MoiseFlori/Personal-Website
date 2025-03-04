@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem;
+  gap: 1.2rem;
+}
+
+
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #4caf50, #66bb6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #4caf50;
+  }
+
+  to {
+    text-shadow: 0 0 15px #66bb6a;
+  }
+}
+
+.text {
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 1.2rem;
+  background: linear-gradient(135deg, #252525, #181818);
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.text:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 20px rgba(7, 148, 51, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+
+.title{
+  font-size: 1.4rem;
+}
+
+.text{
+  font-size: 1.2rem;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .title {
+    font-size: 2rem;
+  }
+
+    .text {
+     width: 60%;
+    }
+
+}

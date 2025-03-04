@@ -1,0 +1,172 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+  background-color: #151a15;
+}
+
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: white;
+  text-align: center;
+}
+
+.title span {
+  display: inline-block;
+  color: #026319c3;
+}
+
+
+.description {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+
+.seeMore {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #026319c3;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.seeMore:hover {
+  background-color: #023111;
+}
+
+
+.carouselContainer {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+.projectCard {
+  width: 280px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  background-color: #151a15;
+  border: none;
+  text-align: center;
+}
+
+.projectCard:hover {
+  transform: scale(1.1);
+}
+
+
+.blurred {
+  filter: blur(5px);
+}
+
+
+.projectImage {
+  width: 230px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.projectName {
+  color: white;
+  font-size: 0.9rem;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+}
+
+@media screen and (min-width: 768px) {
+  .carouselContainer {
+    padding: 0 50px;
+  }
+
+
+}
+
+@media screen and (max-width: 1023px) {
+  .section {
+    flex-direction: column;
+  }
+
+  .textContainer {
+    order: -1;
+    text-align: center;
+
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+
+  .carouselContainer {
+    max-width: 100%;
+
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carouselContainer {
+    flex: 1;
+    max-width: 60%;
+  }
+
+  .textContainer {
+    flex: 1;
+    max-width: 40%;
+
+  }
+
+  .title {
+    font-size: 2rem;
+
+  }
+
+  .description {
+    font-size: 1.1rem;
+
+  }
+
+  .seeMore {
+    margin-top: 20px;
+  }
+
+  .projectImage {
+    max-width: 230px;
+    object-fit: contain;
+  }
+
+  .seeMore {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+  }
+}
