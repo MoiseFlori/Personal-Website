@@ -1,0 +1,94 @@
+.educationHeader {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  min-width: 375px;
+  height: 200px;
+  color: white;
+}
+
+.educationTitle {
+  z-index: 10;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #4caf50, #66bb6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #4caf50;
+  }
+
+  to {
+    text-shadow: 0 0 15px #66bb6a;
+  }
+}
+
+.educationDescription {
+  margin: 0;
+  z-index: 10;
+  position: absolute;
+  bottom: 40px;
+  padding: 0.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: white;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+
+}
+
+@media screen and (min-width:768px) {
+  .educationHeader {
+    min-width: 768px;
+    min-height: 300px;
+
+  }
+
+  .educationTitle {
+    top: 40px;
+    font-size: 3rem;
+  }
+
+
+  .educationDescription {
+    bottom: 50px;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+
+
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .educationHeader {
+    min-width: 1024px;
+    min-height: 400px;
+  }
+
+  .educationTitle {
+    top: 40px;
+    font-size: 3rem;
+  }
+
+
+  .educationDescription {
+    bottom: 70px;
+    padding: 1.2rem;
+
+    font-size: 1.6rem;
+
+
+  }
+}

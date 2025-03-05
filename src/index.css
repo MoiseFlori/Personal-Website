@@ -52,6 +52,6 @@ a {
 }
 
 .projects,
-.about-page {
+.about-page,.education {
   background: linear-gradient(135deg, #1c1f1c, #151a15);
 }
