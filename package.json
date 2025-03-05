@@ -9,12 +9,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^12.4.10",
     "nanoid": "^5.1.2",
     "react": "^19.0.0",

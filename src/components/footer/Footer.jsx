@@ -1,5 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub} from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 const Footer = () => {
@@ -53,7 +54,7 @@ const Footer = () => {
           aria-label="Instagram"
           className={styles.socialIcon}
         >
-          <FaInstagram />
+          <FaSquareInstagram  />
         </a>
       </div>
     </footer>
