@@ -3,10 +3,11 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
   background-color: #151a15;
   color: white;
   gap: 20px;
+
 }
 
 .aboutText {
@@ -111,7 +112,7 @@
     text-align: left;
     justify-content: space-evenly;
     gap: 50px;
-    padding: 40px;
+    padding: 60px;
   }
 
   .aboutText {
@@ -159,7 +160,7 @@
 
 @media screen and (min-width: 1024px) {
   .aboutContainer {
-    padding: 50px;
+    padding: 100px;
 
   }
 
