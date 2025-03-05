@@ -4,7 +4,7 @@ const AboutHeader = () => {
   return (
     <header className={styles.header}>
       <div className = {styles.imageContainer}>
-      <img src="/images/about-header-png.png" alt="About" className={styles.image} /> 
+      <img src="images/about-header-png.png" alt="About" className={styles.image} /> 
       </div>
       <div className={styles.textContainer}>
       <h1 className={styles.title}>Beyond Code: My Journey</h1>
