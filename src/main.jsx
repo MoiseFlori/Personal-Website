@@ -5,7 +5,7 @@ import App from "./App.jsx";
 
 import { BrowserRouter } from "react-router-dom";
 
-const basename = "/Personal-Website"; 
+const basename = "/Personal-Website/"; 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
