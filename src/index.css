@@ -40,6 +40,8 @@ body {
   caret-color: transparent;
 }
 
+
+
 ul {
   list-style: none;
 }
@@ -52,6 +54,8 @@ a {
 }
 
 .projects,
-.about-page,.education,.contact-page {
+.about-page,
+.education,
+.contact-page {
   background: linear-gradient(135deg, #1c1f1c, #151a15);
 }

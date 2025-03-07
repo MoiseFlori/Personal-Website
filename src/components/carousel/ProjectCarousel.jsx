@@ -27,7 +27,7 @@ import { useNavigate } from "react-router-dom";
     id: 4,
     title: "Trending Movies",
     img: "images/trending-movies.png",
-    link: "https://moiseflori.github.io/goit-react-hw-05-movies/",
+    link: "https://moiseflori.github.io/trending-movies/",
   },
   {
     id: 5,

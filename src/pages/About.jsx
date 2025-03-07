@@ -4,14 +4,14 @@ import "../index.css";
 import WhatIDo from "../components/about/WhatIDo";
 import TechStack from "../components/about/TechStack";
 import Myself from "../components/about/Myself";
-import AnimatedSection from "../components/AnimatedSection"; 
+import AnimatedSection from "../components/animation/AnimatedSection"; 
 
 const About = () => {
   return (
     <div className="about-page">
-      <AnimatedSection>
+   
         <AboutHeader />
-      </AnimatedSection>
+  
 
       <AnimatedSection>
         <Myself />

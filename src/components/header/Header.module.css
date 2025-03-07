@@ -64,34 +64,34 @@
 
 .description {
   position: absolute;
-  color: white;
-  font-size: 1rem;
-  font-weight: 300;
-  text-align: center;
-  bottom: 80px;
   padding: 0 20px;
   z-index: 100;
 }
 
-.lineTop,
-.lineBottom {
-  width: 100%;
-  height: 2px;
-  background-color: rgba(158, 158, 158, 0.5);
-  border: none;
-  z-index: 100;
+
+.letter {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 2px;
+  background: linear-gradient(90deg, #4caf50, #66bb6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 1.5s infinite alternate;
 }
 
-.lineTop {
-  position: relative;
-  top: -20px;
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #4caf50;
+  }
 
+  to {
+    text-shadow: 0 0 15px #66bb6a;
+  }
 }
 
-.lineBottom {
-  position: relative;
-  bottom: -80px;
-}
+
 
 @media screen and (min-width: 768px) {
   .headerContainer {
@@ -106,48 +106,39 @@
 
 
   .description {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    bottom: 120px;
     padding: 0 30px;
 
+
   }
 
-
-  .lineTop {
-    top: -30px;
-  }
-
-  .lineBottom {
-    position: relative;
-    bottom: -120px;
+  .letter {
+    font-size: 2rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .headerContainer {
     min-width: 1024px;
-    height: 420px;
+    min-height: 750px;
   }
 
   .navList a {
-    font-size: 1.4rem;
-    padding: 6px 8px;
+    font-size: 1.6rem;
+    padding: 8px 12px;
   }
 
 
   .description {
-    font-size: 1.8rem;
-    font-weight: 500;
-    bottom: 140px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 0 40px;
   }
 
 
-  .lineTop {
-    top: -40px;
-  }
 
-  .lineBottom {
-    bottom: -120px;
+  .letter {
+    font-size: 4rem;
   }
 }

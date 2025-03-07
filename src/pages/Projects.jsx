@@ -1,14 +1,13 @@
 import React from "react";
 import ProjectsHeader from "../components/projects/header/ProjectsHeader";
 import ProjectsSection from "../components/projects/sections/ProjectsSection";
-import AnimatedSection from "../components/AnimatedSection";
+import AnimatedSection from "../components/animation/AnimatedSection";
 
 const Projects = () => {
   return (
     <div className="projects">
-      <AnimatedSection>
-        <ProjectsHeader />
-      </AnimatedSection>
+      <ProjectsHeader />
+
       <AnimatedSection>
         <ProjectsSection />
       </AnimatedSection>

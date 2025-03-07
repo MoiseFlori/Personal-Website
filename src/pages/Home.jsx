@@ -3,11 +3,14 @@ import ProjectCarousel from "../components/carousel/ProjectCarousel";
 import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
 import Footer from "../components/footer/Footer";
-import AnimatedSection from "../components/AnimatedSection"; 
+import AnimatedSection from "../components/animation/AnimatedSection";
+
 
 const Home = () => {
   return (
     <div>
+  
+
       <AnimatedSection>
         <Header />
       </AnimatedSection>

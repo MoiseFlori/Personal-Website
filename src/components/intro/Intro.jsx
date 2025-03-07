@@ -25,7 +25,7 @@ const Intro = () => {
               typeSpeed={100}
               deleteSpeed={50}
               delaySpeed={1500}
-              wrapper="span" /* Adaugă wrapper ca să nu se întindă cursorul aiurea */
+              wrapper="span" 
             />
           </span>
         </h3>
@@ -36,8 +36,8 @@ const Intro = () => {
           Node.js.
         </p>
         <p>
-          When I'm not debugging, you’ll find me pretending to understand why my
-          code works. Let’s build something awesome—preferably without breaking
+          When I'm not debugging, you'll find me pretending to understand why my
+          code works. Let's build something awesome—preferably without breaking
           production! 😄"
         </p>
         <a

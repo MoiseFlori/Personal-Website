@@ -9,7 +9,7 @@ const ContactHeader = () => {
       <h2 className={styles.title}>Connect with Me</h2>
       <div className={styles.socialLinks}>
         <a
-          href="https://www.linkedin.com/in/moiseflori"
+          href="https://www.linkedin.com/in/flori-moise"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -25,7 +25,7 @@ const ContactHeader = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/your_instagram"
+          href="https://www.instagram.com/moiseflori"
           target="_blank"
           rel="noopener noreferrer"
         >

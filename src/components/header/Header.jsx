@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
+const text = "CREATIVE PORTFOLIO";
 
 const Header = () => {
   return (
@@ -25,24 +26,22 @@ const Header = () => {
           </li>
         </ul>
 
-        <motion.div
-          className={styles.lineTop}
-          initial={{ width: 0 }}
-          animate={{ width: "100%" }}
-          transition={{ duration: 2, ease: "easeOut" }}
-        />
-
+  
         <p className={styles.description}>
-          "Building, learning, and evolving—one project at a time. Passion
-          drives me, code shapes my ideas."
+          {text.split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, filter: "blur(10px)" }}
+              animate={{ opacity: 1, filter: "blur(0px)" }}
+              transition={{ duration: 2.5, delay: Math.random() * 2.5 }}
+              className={styles.letter}
+            >
+              {char === " " ? "\u00A0" : char}
+            </motion.span>
+          ))}
         </p>
 
-        <motion.div
-          className={styles.lineBottom}
-          initial={{ width: 0 }}
-          animate={{ width: "100%" }}
-          transition={{ duration: 2, ease: "easeOut", delay: 0.2 }}
-        />
+   
       </nav>
     </header>
   );
