@@ -33,7 +33,7 @@ const projects = [
       "Chat App is a real-time messaging application developed using React, Redux, and Axios. It features state management with Redux Toolkit and persistence using Redux Persist, ensuring a seamless user experience. The app supports dynamic theming, an interactive UI, and an intuitive emoji picker for enhanced communication. API requests are efficiently managed with Axios for retrieving and sending messages. Designed with a modern UI, the project follows component-based architecture and ensures responsiveness across all devices. Key technologies used: React.js, Redux Toolkit, Redux Persist, Axios, and Emoji Picker.",
     liveLink: "https://moiseflori.github.io/chat-app/",
     codeLink: "https://github.com/moiseflori/chat-app",
-    videoSrc: "https://www.youtube.com/embed/j5Bwdt1hQe4",
+    videoSrc: "https://www.youtube.com/embed/aB85FJpBWu0",
   },
 
   {
@@ -86,7 +86,7 @@ const projects = [
       "Gastro Tracker is a full-stack health tracking application designed for both patients and healthcare providers. Built with Java and Spring Boot, it enables patients to log symptoms, track meals, manage documents, and schedule appointments, while doctors can review patient history, prescribe treatments, and manage medical records. The application integrates a Thymeleaf-based frontend with dynamic HTML and CSS, utilizes Hibernate for ORM, and employs a MySQL database for efficient data storage. The backend ensures secure authentication, API endpoints, and optimized performance using Maven for dependency management. Git is used for version control, and the project follows RESTful architecture best practices.",
     liveLink: "https://moiseflori.github.io/gastroproject/",
     codeLink: "https://github.com/moiseflori/gastroproject",
-    videoSrc: "https://www.youtube.com/embed/j5Bwdt1hQe4",
+    videoSrc: "https://www.youtube.com/embed/UfPcRFTG-aQ",
   },
 ];
 
