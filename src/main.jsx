@@ -5,11 +5,11 @@ import App from "./App.jsx";
 
 import { BrowserRouter } from "react-router-dom";
 
-const basename = "/Personal-Website/"; 
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   </StrictMode>
